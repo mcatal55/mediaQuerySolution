@@ -1,0 +1,68 @@
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 29%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: 46%;
+    }
+    .col-md-12 {
+        width: 96%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 96%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, Serif; /*(OPTIONAL)*/
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.75em; /* Default font-size of the dummy text: 1em. The font size of the heading title to be 75% larger than the font size of the dummy text. New font-size: 1.75em*/
+    margin: 10px 0px;
+}
+
+.container {
+    position: relative;
+    margin: 2%;
+    padding: 20px;
+    border: 1px solid black;
+    float: left;
+    background-color: #c7ecee;
+}
+
+.head {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    padding: 0px 20px 0px 20px;
+    border: 1px solid black;
+    background-color: red;
+    font-size: 1.25em; /* Default font-size of the dummy text: 1em. The font size of the section title to be 25% larger than the font size of the dummy text. New font-size: 1.25em*/
+}
+
+.head1 {
+    background-color: #6ab04c;
+}
+
+.head2 {
+    background-color: #eb4d4b;
+}
+
+.head3 {
+    background-color: #f0932b;
+}
+
+p {
+    margin-top: 20px;
+}
